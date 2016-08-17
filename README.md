@@ -16,6 +16,8 @@ All the changes to js/jsx files can be hot-reloaded in browser.
 ```
 npm install
 npm start
+
+
 ```
 
 Then visit <http://localhost:3000>, you will see `Hello world` on the page.
