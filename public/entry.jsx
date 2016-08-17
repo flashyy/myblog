@@ -1,10 +1,10 @@
-import Hello from './hello.jsx';
+import Aa from './aa.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 
 ReactDOM.render(
-  <Hello />,
+  <Aa />,
   document.getElementById("content")
 );
 
