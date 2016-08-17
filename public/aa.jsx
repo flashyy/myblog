@@ -42,13 +42,13 @@ export default class Article extends Component {
   _onSubmit() {
     alert(this.state.title+','+this.state.content);
 
-    request.post('/api/article')
+    request.post('/api/articles')
       .send({
         title: this.state.title,
         content: this.state.content
       })
       .end((err, res) => {
-        if (err) return console.err(err);
+        if (err) return console.error(err);
         console.log(res.statusCode);
       })
   }
